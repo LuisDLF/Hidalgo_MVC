@@ -1,7 +1,7 @@
 
-    
-<header>
-  <div id="carouselExampleIndicators" class="carousel slide data-interval="2000"" data-ride="carousel">
+<header class="mt-5 ml-5 mr-5">
+  
+    <div id="carouselExampleIndicators" class=" carousel slide data-interval="2000"" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -39,5 +39,7 @@
           <span class="sr-only">Next</span>
         </a>
   </div>
+
+  
 </header>
     

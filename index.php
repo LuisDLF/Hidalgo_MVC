@@ -1,4 +1,6 @@
 <?php
+	
+	require_once "./core/idioma.php";
 	require_once "./core/configGeneral.php";
 	require_once "./controladores/vistasControlador.php";
 

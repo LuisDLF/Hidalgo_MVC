@@ -2,7 +2,7 @@
 	class vistasModelo{
 
 		protected function obtener_vistas_modelo($vistas){
-			$listaBlanca=["adminlist","Index"];
+			$listaBlanca=["Hoteles","Index","Hotel"];
 			if(in_array($vistas, $listaBlanca)){
 				if(is_file("./vistas/contenidos/".$vistas."-view.php")){
 					$contenido="./vistas/contenidos/".$vistas."-view.php";
@@ -14,4 +14,5 @@
 			}
 			return $contenido;
 		}
+
 	}
