@@ -4,11 +4,10 @@
 <head>
 	<title><?php echo TITULO ?></title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" charset="UTF-8">
-	<head>
-  <meta name="description" content="Sitio Web de Hidalgo Nuevo Leon">
+	  <meta name="description" content="Sitio Web de Hidalgo Nuevo Leon">
   <meta name="keywords" content="Hotel,Hidalgo,PotreroChico,Potrero,escalar,Nuevo Leon,Potrero Chico">
   <meta name="author" content="Luis Daniel">
-</head>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/carrusel.css">
 	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/Iconos.css">
