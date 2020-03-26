@@ -13,13 +13,6 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 ?>
 
 <div class="container">
-   
-   <h3 class="text-center pb-3 mb-4 mt-4 border-bottom shadow h-md-250 bg-white">
-      <?php echo Hoteles_titulo ?>
-   </h3>
-
-
-
 <div class="row">
       <?php    
       while ($rows = mysqli_fetch_array($resultado)){ 
