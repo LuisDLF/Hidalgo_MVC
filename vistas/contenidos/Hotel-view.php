@@ -28,7 +28,7 @@
   <!-- /.row -->
 
   <!-- Related Projects Row -->
-  <h3 class="my-4">Related Projects</h3>
+  <h3 class="my-4">Fotografias</h3>
 
   <div class="row">
 

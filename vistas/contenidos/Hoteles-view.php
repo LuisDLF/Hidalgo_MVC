@@ -28,7 +28,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
             <div class="card-img-overlay">
                <h5 class="card-title text-light"><?php echo utf8_encode($rows[0]);?></h5>
                <p class="card-text"><?php echo utf8_encode($rows[1])?></p>
-               <a class="btn btn-primary btn-sm" role="button" href="http://www.jquery2dotnet.com/">Continue reading</a>
+               <a class="btn btn-primary btn-sm" role="button" href=<?php echo "'".SERVERURL."Hotel"."'"?>>Continue reading</a>
             </div>
          </div>
       </div>
