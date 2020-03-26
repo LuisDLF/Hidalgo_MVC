@@ -45,16 +45,14 @@
 
 <div class="card-section">
         <div class="container">
-            <div class="card-block bg-white mb30">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="card bg-white">
+                
                         <!-- section-title -->
-                        <div class="section-title mb-0">
+                        
                            <?php require_once $vistasR;?>
-                        </div>
+                       
                         <!-- /.section-title -->
-                    </div>
-                </div>
+                 
             </div>
 
 
