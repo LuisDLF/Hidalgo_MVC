@@ -40,3 +40,8 @@
         text-decoration: none;
     opacity: 0.8;
 }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
