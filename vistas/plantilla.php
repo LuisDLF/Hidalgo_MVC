@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-caption">
-                        <h1 class="page-title">Hike Pageheader</h1>
+                        <h1 class="page-title">Guia turistica</h1>
                     </div>
                 </div>
             </div>

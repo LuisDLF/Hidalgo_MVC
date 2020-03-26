@@ -13,14 +13,14 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 ?>
 
 <div class="container mt-2 text-center item-center">
-      <div class="row">
+      <div class="row ">
 
       <?php    
       while ($rows = mysqli_fetch_array($resultado)){ 
       ?>
   
 
-          <div class="col-md-8">
+          <div class="col-md-8 mx-auto">
          <div class="card- mb-2 bg-dark text-white rounded">
             <?php
             echo '<img  class="card-img" style="filter: brightness(0.6); height:200px" src="data:image/jpeg;base64,'.base64_encode( $rows[2] ).'" alt="Card image">'
