@@ -12,7 +12,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 
 ?>
 
-<div class="container m-2 text-center item-center">
+<div class="container mt-2 text-center item-center">
       <div class="row">
 
       <?php    
