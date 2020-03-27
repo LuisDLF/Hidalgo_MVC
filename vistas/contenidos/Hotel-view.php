@@ -33,7 +33,7 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
     </div>
 
     <div class="col-md-4">
-      <h3 class="my-3">Project Description</h3>
+      <h3 class="my-3"><<?php echo $resultado[0]; ?></h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
       <h3 class="my-3">Project Details</h3>
       <ul>
