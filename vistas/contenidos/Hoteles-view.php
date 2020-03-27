@@ -23,12 +23,12 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
           <div class="col-md-8 mx-auto">
          <div class="card- mb-2 bg-dark text-white rounded">
             <?php
-            echo '<img  class="card-img" style="filter: brightness(0.6); height:200px" src="data:image/jpeg;base64,'.base64_encode( $rows[2] ).'" alt="Card image">'
+            echo '<img  class="card-img" style="filter: brightness(0.6); height:200px" src="data:image/jpeg;base64,'.base64_encode( $rows[3] ).'" alt="Card image">'
             ?>
             <div class="card-img-overlay">
-               <h5 class="card-title text-light"><?php echo utf8_encode($rows[0]);?></h5>
-               <p class="card-text"><?php echo utf8_encode($rows[1])?></p>
-               <a class="btn btn-primary btn-sm" role="button" href=<?php echo "'".SERVERURL."Hotel"."'"?>>Continue reading</a>
+               <h5 class="card-title text-light"><?php echo utf8_encode($rows[1]);?></h5>
+               <p class="card-text"><?php echo utf8_encode($rows[2])?></p>
+               <a class="btn btn-primary btn-sm" role="button" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".echo utf8_encode($rows[1]);?>."'"?>>Continue reading</a>
             </div>
          </div>
       </div>
