@@ -30,7 +30,7 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
       <img class="img-fluid" src="http://placehold.it/750x500" alt="">
 
        <?php
-            echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3]; ).'" alt="Card image">'
+            echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image">'
             ?>
     </div>
 
