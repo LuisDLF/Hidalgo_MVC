@@ -64,7 +64,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
             </div>
         </div>
     </div>
-<div class="container mt-2 text-center item-center" style="position: absolute;">
+<div class="container mt-2 text-center item-center">
       <div class="row ">
 
       <?php    
