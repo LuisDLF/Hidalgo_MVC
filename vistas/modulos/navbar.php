@@ -18,7 +18,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="vistas/assets/logo.png" alt="">
+                                    <img src="vistas/assets/Logo.png" alt="">
                                 </a>
                             </div>
                         </div>
