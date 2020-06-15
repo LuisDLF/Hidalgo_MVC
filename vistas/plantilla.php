@@ -7,13 +7,35 @@
 	  <meta name="description" content="Sitio Web de Hidalgo Nuevo Leon">
   <meta name="keywords" content="Hotel,Hidalgo,PotreroChico,Potrero,escalar,Nuevo Leon,Potrero Chico">
   <meta name="author" content="Luis Daniel">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/carrusel.css">
-	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/card.css">
-	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/footer.css">
+<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/themify-icons.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/nice-select.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/gijgo.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/animate.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/slicknav.css">
+    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/style.css">
 	
 </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Montana</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS here -->
+    
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+
+
+
 
 <body style="background-color: #ebebea">
 	<?php  
@@ -28,24 +50,12 @@
 		include "./vistas/modulos/navbar.php"; 
 		?>
 
-<header class="page-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="page-caption">
-                        <h1 class="page-title">En Potrero Chico</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+
 
 
 		
 
-<div class="card-section">
-        <div class="container">
-            <div class="card bg-white">
+
                 
                         <!-- section-title -->
                         
@@ -53,17 +63,12 @@
                        
                         <!-- /.section-title -->
                  
-            </div>
-
-
-
-            
-            </div>
+           
 
 
 
     
-            </div>
+
 
 
  <footer>
@@ -113,9 +118,33 @@
 	
 	<!--===== Scripts -->
 
- 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/popper.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/bootstrap.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/owl.carousel.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/ajax-form.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/waypoints.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.counterup.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/scrollIt.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.scrollUp.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/wow.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/nice-select.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.slicknav.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/plugins.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="<?php echo SERVERURL; ?>vistas/js/contact.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.ajaxchimp.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.form.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/jquery.validate.min.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/mail-script.js"></script>
+
+    <script src="<?php echo SERVERURL; ?>vistas/js/main.js"></script>
 </body>
 
 
