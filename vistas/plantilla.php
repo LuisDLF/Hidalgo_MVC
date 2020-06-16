@@ -71,49 +71,93 @@
 
 
 
- <footer>
-     <div class="container-fluid bg-dark py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-            <div class="row py-0">
-          <div class="col-sm-1 hidden-md-down">
-              <a class="bg-circle bg-info" href="#">
-                <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
-              </a>
-            </div>
-            <div class="col-sm-11 text-white">
-                <div><h4>Contact</h4>
-                    <p><span class="header-font"><span class="header-font">website.com</span>
+  <!-- footer -->
+  <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                address
+                            </h3>
+                            <p class="footer_text"> Antiguo Camino a Potrero Chico, Las Pedreras (Fomerrey 106), 65600  <br>
+                            Hidalgo, N.L. México</p>
+                            <a href="https://goo.gl/maps/JgbQ88GU7WKw1oeJA" class="line-button">Get Direction</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Contact
+                            </h3>
+                            <p class="footer_text">+52 811-596-7336<br>
+                                enpotrerochico@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-8 col-md-7 col-lg-9">
+                        <p class="copy_right">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <div class="col-xl-4 col-md-5 col-lg-3">
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-5">
-          <div class="d-inline-block">
-            <div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
-              <a href="https://www.facebook.com/"><i class="fa fa-2x fa-fw fa-facebook text-white"></i>
-    </a>
-            </div>
-            <div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
-              <a href="https://twitter.com/">
-                <i class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
-            </div>
-
-            <div class="bg-circle-outline d-inline-block" style="background-color:#0077B5">
-              <a href="https://www.linkedin.com/company/">
-                <i class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
-            </div>
-            <div class="bg-circle-outline d-inline-block" style="background-color:#d34836">
-              <a href="https://www.google.com/">
-                <i class="fa fa-2x fa-fw fa-google text-white"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-</footer>
+    </footer>
 		
 	
 	<!--===== Scripts -->
