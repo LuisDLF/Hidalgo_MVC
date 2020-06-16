@@ -27,24 +27,21 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/enpotrerochico/">
                                                 <i class="fa fa-facebook-square"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://twitter.com/enpotrerochico">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/enpotrerochico/">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Book A Room</a>
                                 </div>
                             </div>
                         </div>
