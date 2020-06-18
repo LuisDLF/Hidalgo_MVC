@@ -7,9 +7,9 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="Index">home</a></li>
-                                        <li><a href="Hoteles">rooms</a></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a class="active" href="Index">Inicio</a></li>
+                                        <li><a href="Hoteles">Hospedaje</a></li>
+                                        <li><a href="about.html">Sobre nosotrost</a></li>
                                         
                                     </ul>
                                 </nav>
