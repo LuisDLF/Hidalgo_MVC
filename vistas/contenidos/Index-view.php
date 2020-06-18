@@ -59,14 +59,14 @@
                 <div class="col-xl-5 col-lg-5">
                     <div class="about_info">
                         <div class="section_title mb-20px">
-                            <span>About Us</span>
+                            <span>Sobre nosotros</span>
                             <h3>En Potrero Chico <br>
                             Tu mejor Guia Local</h3>
                         </div>
                         <p>Somos una Empresa en Publicidad radical del Municipio de Hidalgo Nuevo León interesada en expander el reconocimiento a través de nuestro sitio web a nivel Mundial.
                             Buscamos negocios interesados en promocionarse desde nuestro sitio web a un costo Accesible, 
                             CONTÁCTANOS y conocé las ventajas de nuestro servicio.</p>
-                        <a href="#" class="line-button">Learn More</a>
+                        <a href="#" class="line-button">Aprende más</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7">
@@ -90,8 +90,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <span>Our Offers</span>
-                        <h3>Ongoing Offers</h3>
+                        <span>Mejores lugares de Hospedaje</span>
+                        <h3>Top 3 de Hospedajes</h3>
                     </div>
                 </div>
             </div>
@@ -99,14 +99,14 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="vistas/assets/offers/1.png" alt="">
+                            <img src="vistas/assets/offers/1a.png" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>Anunciate con Nosotros<br>
+                            </h3>
                         <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
-                            <li>Sea view side</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
                         </ul>
                         <a href="#" class="book_now">book now</a>
                     </div>
@@ -114,14 +114,14 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="vistas/assets/offers/2.png" alt="">
+                            <img src="vistas/assets/offers/2a.png" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>El Cubil en Potrero Chico <br>
+                        </h3>
                         <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
-                            <li>Sea view side</li>
+                            <li>Amplias instalaciones</li>
+                            <li>Rutas de escaladas dentro del lugar</li>
+                            <li>Escalada, Senderismo, Higkin, Camping</li>
                         </ul>
                         <a href="#" class="book_now">book now</a>
                     </div>
@@ -129,14 +129,14 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="vistas/assets/offers/3.png" alt="">
+                            <img src="vistas/assets/offers/3a.png" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>Anunciate con Nosotros<br>
+                            </h3>
                         <ul>
-                            <li>Luxaries condition</li>
-                            <li>3 Adults & 2 Children size</li>
-                            <li>Sea view side</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
                         </ul>
                         <a href="#" class="book_now">book now</a>
                     </div>
