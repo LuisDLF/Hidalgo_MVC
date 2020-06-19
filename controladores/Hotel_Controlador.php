@@ -13,4 +13,5 @@
 				$respuesta=Hoteles_Modelo::Obtain_Hotel_Model($Id_Hotel);
 				return $respuesta;
 		}
-	}
+
+}

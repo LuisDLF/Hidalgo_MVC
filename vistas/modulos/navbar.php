@@ -43,9 +43,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Book A Room</a>
-                                </div>
+                                <a href="about">About</a>
                             </div>
                         </div>
                         <div class="col-12">

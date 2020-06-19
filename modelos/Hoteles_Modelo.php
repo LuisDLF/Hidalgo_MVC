@@ -26,7 +26,7 @@ class Hoteles_Modelo extends ModeloSQL
 		//connect to database
 		$result = mysqli_query($this->con, "CALL Obtain_Hotels");
 		$this->cerrar(); 
-	return $result;
+		return $result;
 	}
 
 }

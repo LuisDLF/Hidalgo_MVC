@@ -9,7 +9,9 @@
 
 					
 				}else{
+
 					$contenido="Index";
+
 				}
 			}else{
 				$contenido="./vistas/contenidos/Index-view.php";
