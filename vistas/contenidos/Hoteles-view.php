@@ -12,37 +12,44 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 
 ?>
 
-<br>
-<br>
-<br>
-<br>
-<div class="container mt-2 text-center item-center">
-      <div class="row ">
-      <?php    
+ <div class="offers_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+                        <span>Mejores lugares de Hospedaje</span>
+                        <h3>Top 3 de Hospedajes</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+              <?php    
       while ($rows = mysqli_fetch_array($resultado)){ 
       ?>
-  
-
-          <div class="col-md-8 mx-auto">
-         <div class="card- mb-2 bg-dark text-white rounded">
-            <?php
-            echo '<img  class="card-img" style="filter: brightness(0.6); height:200px" src="data:image/jpeg;base64,'.base64_encode( $rows[3] ).'" alt="Card image">'
-            ?>
-            <div class="card-img-overlay">
-               <h5 class="card-title text-light"><?php echo utf8_encode($rows[1]);?></h5>
-               <p class="card-text"><?php echo utf8_encode($rows[2]);?></p>
-               <a class="btn btn-primary btn-sm" role="button" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>Continue reading</a>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_offers">
+                        <div class="about_thumb">
+                            <img src="vistas/assets/offers/1a.png" alt="">
+                        </div>
+                        <h3><?php echo utf8_encode($rows[1]);?><br>
+                            </h3>
+                        <ul>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                        </ul>
+                        <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>book now</a>
+                    </div>
+                </div>
+              <?php } ?>
+              
             </div>
-         </div>
-      </div>
-
-     
-<?php } ?>
-
-</div>
+        </div>
+    </div>
 
 
-  </div>
+ 
 
 
 
