@@ -9,7 +9,7 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="Index">Inicio</a></li>
                                         <li><a href="Hoteles">Hospedaje</a></li>
-                                        <li><a href="about.html">Sobre nosotrost</a></li>
+                                        <li><a href="about.html">Quintas</a></li>
                                         
                                     </ul>
                                 </nav>
