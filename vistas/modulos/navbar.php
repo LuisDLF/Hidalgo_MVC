@@ -12,7 +12,7 @@
                                         <li><a href="about.html">Sobre nosotrost</a></li>
                                         
                                     </ul>
-                                </nav class="sticky-top">
+                                </nav>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2">

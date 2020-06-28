@@ -11,7 +11,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 }
 
 ?>
-<section class=""> 
+<section> 
  <div class="offers_area">
         <div class="container">
             <div class="row">
@@ -28,8 +28,8 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
               <?php    
       while ($rows = mysqli_fetch_array($resultado)){ 
       ?>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_offers">
+                <div class=" card col-xl-4 col-md-4">
+                    <div class="card-body single_offers">
                         <div class="about_thumb">
                             <img src="vistas/assets/offers/1a.png" alt="">
                         </div>
