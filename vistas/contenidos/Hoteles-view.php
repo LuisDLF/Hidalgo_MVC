@@ -12,14 +12,14 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 
 ?>
 
- <div class="offers_area">
+ <div class="offers_area mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
                         
-                        <h3>Top 3 de Hospedajes</h3>
-                        <span>Mejores lugares de Hospedaje</span>
+                        <h3>Hospedajes en Hidalgo</h3>
+
                     </div>
                 </div>
             </div>
