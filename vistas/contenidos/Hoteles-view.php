@@ -12,18 +12,28 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 
 ?>
 
+
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">Hoteles y Hospedaje</h1>
+        <p class="lead">En Hidalgo Nuevo Leon</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+
+
+
 <section> 
  <div class="offers_area">
         <div class="mt-5 container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div  class="section_title text-center mb-100">
-                        
-                        <h3  class="mt-5">Hospedajes en Hidalgo</h3>
-
-                    </div>
-                </div>
-            </div>
+          
 
             <div class="row">
               <?php    
