@@ -12,14 +12,14 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 
 ?>
 
-<section class="my-auto"> 
+<section> 
  <div class="offers_area">
-        <div class="container">
+        <div class="mt-5 container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="section_title text-center mb-100">
+                    <div  class="section_title text-center mb-100">
                         
-                        <h3>Hospedajes en Hidalgo</h3>
+                        <h3  class="mt-5">Hospedajes en Hidalgo</h3>
 
                     </div>
                 </div>
