@@ -11,8 +11,8 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 }
 
 ?>
-
- <div class="offers_area mt-5">
+<section class="mt-5"> 
+ <div class="offers_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -48,6 +48,8 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
             </div>
         </div>
     </div>
+</section>
+
 
 
  
