@@ -11,7 +11,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 }
 
 ?>
-<section class="mt-5"> 
+<section class=""> 
  <div class="offers_area">
         <div class="container">
             <div class="row">
