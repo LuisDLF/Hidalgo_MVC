@@ -54,6 +54,36 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
                         <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>book now</a>
                     </div>
                 </div>
+                <div class=" card col-xl-4 col-md-4">
+                    <div class="card-body single_offers">
+                        <div class="about_thumb">
+                            <img src="vistas/assets/offers/1a.png" alt="">
+                        </div>
+                        <h3><?php echo utf8_encode($rows[1]);?><br>
+                            </h3>
+                        <ul>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                        </ul>
+                        <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>book now</a>
+                    </div>
+                </div>
+                <div class=" card col-xl-4 col-md-4">
+                    <div class="card-body single_offers">
+                        <div class="about_thumb">
+                            <img src="vistas/assets/offers/1a.png" alt="">
+                        </div>
+                        <h3><?php echo utf8_encode($rows[1]);?><br>
+                            </h3>
+                        <ul>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                        </ul>
+                        <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>book now</a>
+                    </div>
+                </div>
               <?php } ?>
               
             </div>
