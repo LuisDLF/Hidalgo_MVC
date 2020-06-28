@@ -11,7 +11,8 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
 }
 
 ?>
-<section> 
+
+<section class="my-auto"> 
  <div class="offers_area">
         <div class="container">
             <div class="row">
