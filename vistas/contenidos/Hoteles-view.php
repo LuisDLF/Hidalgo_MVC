@@ -17,8 +17,9 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <span>Mejores lugares de Hospedaje</span>
+                        
                         <h3>Top 3 de Hospedajes</h3>
+                        <span>Mejores lugares de Hospedaje</span>
                     </div>
                 </div>
             </div>
