@@ -1,6 +1,6 @@
   <header>
         <div class="header-area">
-            <div class="main-header-area sticky-top">
+            <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-5 col-lg-6">
@@ -12,7 +12,7 @@
                                         <li><a href="about.html">Sobre nosotrost</a></li>
                                         
                                     </ul>
-                                </nav>
+                                </nav class="sticky-top">
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2">
