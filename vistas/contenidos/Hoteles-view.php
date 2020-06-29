@@ -50,9 +50,9 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
                         <h3><?php echo utf8_encode($rows[1]);?><br>
                             </h3>
                         <p>
-                          
+                          <?php echo $rows["Descripcion"];?>
                         </p>
-                        <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows["Descripcion"])."'"?>>book now</a>
+                        <a  class="book_now" href=<?php echo "'".SERVERURL."Hotel"."?Id_Hotel=".utf8_encode($rows[0])."'"?>>book now</a>
                     </div>
                 </div>
                
