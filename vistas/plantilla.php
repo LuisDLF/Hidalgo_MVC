@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/animate.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/slicknav.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/style.css">
-    <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/fancy.css">
+   
 
 
 
@@ -192,7 +192,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="<?php echo SERVERURL; ?>vistas/js/jquery.validate.min.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/mail-script.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/main.js"></script>
-    <script src="<?php echo SERVERURL; ?>vistas/js/fancy.js"></script>
+
 
 </body>
 
