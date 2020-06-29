@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/slicknav.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/style.css">
 	
+
+
+
+
+    
+
+
 </head>
 
 <head>

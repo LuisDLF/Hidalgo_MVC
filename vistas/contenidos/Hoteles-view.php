@@ -43,9 +43,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
                     <div class="card-body single_offers">
                         <div class="about_thumb">
                    
-                               <?php
-            echo '<img src="data:image/jpeg;base64,'.base64_encode( $rows[3] ).'" alt="Card image">';
-            ?>
+                               <?php echo '<img src="data:image/jpeg;base64,'.base64_encode( $rows[3] ).'" alt="Card image">';?>
                         </div>
                         <h3><?php echo utf8_encode($rows[1]);?><br>
                             </h3>
