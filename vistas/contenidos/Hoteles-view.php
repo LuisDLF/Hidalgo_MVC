@@ -42,8 +42,7 @@ $resultado=$hoteles->Obtain_Hotels_Controller();
                 <div class=" card col-xl-4 col-md-4">
                     <div class="card-body single_offers">
                         <div class="about_thumb">
-                            <img src="vistas/assets/offers/1a.png" alt="">
-
+                   
                                <?php
             echo '<img src="data:image/jpeg;base64,'.base64_encode( $rows[3] ).'" alt="Card image">';
             ?>
