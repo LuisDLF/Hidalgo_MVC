@@ -186,15 +186,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="<?php echo SERVERURL; ?>vistas/js/jquery.magnific-popup.min.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/plugins.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/gijgo.min.js"></script>
-
-    <!--contact js-->
     <script src="<?php echo SERVERURL; ?>vistas/js/contact.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/jquery.ajaxchimp.min.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/jquery.form.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/jquery.validate.min.js"></script>
     <script src="<?php echo SERVERURL; ?>vistas/js/mail-script.js"></script>
-
     <script src="<?php echo SERVERURL; ?>vistas/js/main.js"></script>
+    <script src="<?php echo SERVERURL; ?>vistas/js/hotel.js"></script>
 </body>
 
 
