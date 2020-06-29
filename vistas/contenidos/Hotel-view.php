@@ -18,7 +18,7 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
 
  
 
-<section class="container mt-5">
+<section class="container" style="margin-top: 200px;">
   <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
