@@ -10,8 +10,9 @@
                                         <li><a class="active" href="Index">Inicio</a></li>
                                         <li><a href="Hoteles">Hospedaje</a></li>
                                         <li><a href="about.html">Quintas</a></li>
-                                        
+                                       
                                     </ul>
+                                    
                                 </nav>
                             </div>
                         </div>
@@ -25,7 +26,10 @@
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
                                 <div class="socail_links">
+                                    
+                                     
                                     <ul>
+
                                         <li>
                                             <a href="https://www.facebook.com/enpotrerochico/">
                                                 <i class="fa fa-facebook-square"></i>
