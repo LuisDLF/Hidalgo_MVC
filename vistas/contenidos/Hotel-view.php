@@ -18,8 +18,8 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
 
  
 
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<section class="container mt-5">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -27,13 +27,13 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-       <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image" style="width:750px; height:400px;">';?>
+       <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image">';?>
     </div>
     <div class="carousel-item">
-      <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image" style="width:750px; height:400px;">';?>
+      <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image" >';?>
     </div>
     <div class="carousel-item">
-       <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image" style="width:750px; height:400px;">';?>
+       <?php echo '<img class="img-fluid" src="data:image/jpeg;base64,'.base64_encode( $resultado[3] ).'" alt="Card image" >';?>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,6 +45,8 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
     <span class="sr-only">Next</span>
   </a>
 </div>
+</section>
+
 
 
 
