@@ -18,12 +18,11 @@
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/animate.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/slicknav.css">
     <link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/style.css">
-	
+	<link rel="stylesheet" href="<?php echo SERVERURL; ?>vistas/css/hotel.css">
 
 
 
 
-    
 
 
 </head>
