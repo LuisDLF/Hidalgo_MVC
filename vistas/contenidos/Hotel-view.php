@@ -17,8 +17,8 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
 
 
 
-
-<div class="container mt-5">
+<section class="mt-5">
+  <div class="container mt-5">
 
   <!-- Portfolio Item Heading -->
   <h1 class="my-4"><?php echo $resultado[1]; ?></h1>
@@ -48,3 +48,4 @@ $resultado=$hoteles->Obtain_Hotel_Controller($_GET["Id_Hotel"]);
 
 
 </div>
+</section>
