@@ -83,7 +83,7 @@
         <div class="footer_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
+                    <div class="col-xl-3 col-md-6 col-lg-6">
                         <div class="footer_widget">
                             <h3 class="footer_title">
                                 address
@@ -93,7 +93,7 @@
                             <a href="https://goo.gl/maps/JgbQ88GU7WKw1oeJA" class="line-button">Get Direction</a>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
+                    <div class="col-xl-3 col-md-6 col-lg-6">
                         <div class="footer_widget">
                             <h3 class="footer_title">
                                 Contact
@@ -103,9 +103,7 @@
                         </div>
                     </div>
                   
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                      
-                    </div>
+                
                 </div>
             </div>
         </div>
@@ -113,9 +111,7 @@
             <div class="container">
                 <div class="footer_border"></div>
                 <div class="row">
-                    <div class="col-xl-8 col-md-7 col-lg-9">
-                        <p class="copy_right">
-                    </div>
+                   
                     <div class="col-xl-4 col-md-5 col-lg-3">
                         <div class="socail_links">
                             <ul>
